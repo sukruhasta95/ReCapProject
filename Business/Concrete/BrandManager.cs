@@ -34,7 +34,7 @@ namespace Business.Concrete
 
         public void Update(Brand brand)
         {
-            _brandDal.Add(brand);    
+            _brandDal.Update(brand);    
         }
     }
 }
